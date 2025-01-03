@@ -39,7 +39,7 @@ else:
     magic_square = generate_magic_square(n)
     print_magic_square(magic_square)
 
-# 잘몰라서 gpt의 도움을 받아 만들었습니다. 제걸로 만들도록 하겠습니다!
+
 #   magic_square = [[0] * n for _ in range(n)]
 #   for_in range(n) -> range(n)이 생성한 숫자에 대해 반복문을 실행, 실제로 사용하진 않음
 # 각 반복에서 [0]*n -> 이코드를 n번 반복해서 0으로 채워진 n개의 요소로 작용함.
