@@ -1,3 +1,27 @@
+'''
+-분석 절차 안내-
+
+1.데이터 수집
+
+2.CSV 파일에서 CPI 및 GRDP 데이터를 읽어옴.
+  데이터 전처리
+
+3.NaN 값이 포함된 열을 삭제함.
+  도시명을 인덱스로 변환하여 데이터베이스에 저장.
+  데이터 저장 및 관리
+
+4.MySQL 데이터베이스(product)에 연결하여 cpi_tb 테이블에 데이터 삽입.
+  데이터 분석
+
+5.CPI의 연도별 증가율을 계산.
+  CPI와 GRDP의 관계를 시각화.
+  데이터 시각화
+
+6.연도별 평균 CPI 및 GRDP 변화를 선 그래프로 표현.
+  CPI와 GRDP 간의 관계를 산점도로 표현.
+
+'''
+
 import pymysql
 import pandas as pd
 import matplotlib.pyplot as plt
